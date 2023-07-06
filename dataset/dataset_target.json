@@ -14,8 +14,8 @@
 					"value": "@concat('data_', formatDateTime(utcnow(), 'yyyMMdd_HHmmss'), '.txt')",
 					"type": "Expression"
 				},
-				"folderPath": "target",
-				"container": "source-location"
+				"folderPath": "stage",
+				"container": "target-location"
 			}
 		}
 	},
