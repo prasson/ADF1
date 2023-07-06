@@ -1,0 +1,17 @@
+{
+	"name": "trigger-copy",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 2,
+				"startTime": "2023-07-06T16:12:00Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}
