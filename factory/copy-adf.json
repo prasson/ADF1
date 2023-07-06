@@ -1,0 +1,9 @@
+{
+	"name": "copy-adf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "04f49836-6c29-40d3-a102-15479219cb09",
+		"tenantId": "84f1e4ea-8554-43e1-8709-f0b8589ea118"
+	}
+}

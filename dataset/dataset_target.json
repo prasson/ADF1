@@ -1,0 +1,23 @@
+{
+	"name": "dataset_target",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "linkedService_source",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": {
+					"value": "@concat('data_', formatDateTime(utcnow(), 'yyyMMdd_HHmmss'), '.txt')",
+					"type": "Expression"
+				},
+				"folderPath": "target",
+				"container": "source-location"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
