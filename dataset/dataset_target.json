@@ -2,7 +2,7 @@
 	"name": "dataset_target",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "linkedService_source",
+			"referenceName": "linkedService_blob",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
