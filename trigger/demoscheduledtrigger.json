@@ -1,0 +1,34 @@
+{
+	"name": "demoscheduledtrigger",
+	"properties": {
+		"description": "daily",
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline1",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2024-12-14T20:27:00",
+				"endTime": "2024-12-15T14:27:00",
+				"timeZone": "India Standard Time",
+				"schedule": {
+					"minutes": [
+						40
+					],
+					"hours": [
+						20
+					]
+				}
+			}
+		}
+	}
+}

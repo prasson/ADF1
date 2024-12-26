@@ -1,0 +1,30 @@
+{
+	"name": "trigger1",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline2",
+					"type": "PipelineReference"
+				},
+				"parameters": {
+					"sourcetable": "table1",
+					"dbnamefrompipeline": "sann",
+					"destinationtable": "table2"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Hour",
+				"interval": 2,
+				"startTime": "2024-12-15T12:59:00",
+				"endTime": "2024-12-16T12:59:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}

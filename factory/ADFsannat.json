@@ -1,0 +1,9 @@
+{
+	"name": "ADFsannat",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "71f295fe-41be-4ffc-b15f-d8ae75f99bd3",
+		"tenantId": "3235346e-4dc9-4db4-9190-30025900a2cd"
+	}
+}
